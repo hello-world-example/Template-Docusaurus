@@ -2,7 +2,7 @@ module.exports = {
   title: 'Template-Docusaurus',
   tagline: 'Sub Title Template-Docusaurus',
   url: 'http://kail.xyz/Template-Docusaurus',
-  baseUrl: '/',
+  baseUrl: '/Template-Docusaurus/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'hello-world-example', // Usually your GitHub org/user name.
