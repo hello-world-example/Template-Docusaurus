@@ -63,6 +63,9 @@ $ yarn run swizzle @docusaurus/theme-classic SearchBar
 ## 常用命令
 
 ```bash
+git config user.email ykb553@163.com
+git config -l | grep user
+
 $ cd docusaurus
 
 $ sed -i '' 's/Template-Docusaurus/_NewProject_/g' docusaurus/docusaurus.config.js README.md
