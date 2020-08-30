@@ -8,6 +8,10 @@ module.exports = {
   organizationName: 'hello-world-example', // Usually your GitHub org/user name.
   projectName: 'Template-Docusaurus', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true
+    },
     navbar: {
       title: 'Template-Docusaurus',
       logo: {
@@ -83,10 +87,18 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Template-Docusaurus, Inc. Built with Docusaurus.`,
     },
   },
+  plugins: [
+    [
+      '@docusaurus/plugin-sitemap',  {
+        cacheTime: 600 * 1000, // 600 sec - cache purge period
+        changefreq: 'weekly',
+        priority: 0.5,
+      },
+    ],
+  ],
   presets: [
     [
-      '@docusaurus/preset-classic',
-      {
+      '@docusaurus/preset-classic',  {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.

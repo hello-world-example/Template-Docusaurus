@@ -1177,6 +1177,13 @@
   version "2.0.0-alpha.62"
   resolved "https://registry.npm.taobao.org/@docusaurus/plugin-google-gtag/download/@docusaurus/plugin-google-gtag-2.0.0-alpha.62.tgz#675e0f6674b54d5c391dfdbd6621927ec588f7eb"
 
+"@docusaurus/plugin-sitemap@^2.0.0-alpha.37":
+  version "2.0.0-alpha.37"
+  resolved "https://registry.npm.taobao.org/@docusaurus/plugin-sitemap/download/@docusaurus/plugin-sitemap-2.0.0-alpha.37.tgz#174fa03e7184db2971a491849b27e33f577a26b4"
+  dependencies:
+    "@docusaurus/types" "^2.0.0-alpha.37"
+    sitemap "^3.2.2"
+
 "@docusaurus/plugin-sitemap@^2.0.0-alpha.62":
   version "2.0.0-alpha.62"
   resolved "https://registry.npm.taobao.org/@docusaurus/plugin-sitemap/download/@docusaurus/plugin-sitemap-2.0.0-alpha.62.tgz#5d5ebe895352c22ebb61a026e75185a28cad817d"
@@ -1234,6 +1241,14 @@
     clsx "^1.1.1"
     eta "^1.1.1"
     lodash "^4.17.19"
+
+"@docusaurus/types@^2.0.0-alpha.37":
+  version "2.0.0-alpha.37"
+  resolved "https://registry.npm.taobao.org/@docusaurus/types/download/@docusaurus/types-2.0.0-alpha.37.tgz#e14b8758cfefab5235c5ec190c489dd32cb7a8b8"
+  dependencies:
+    "@types/webpack" "^4.41.0"
+    commander "^4.0.1"
+    querystring "0.2.0"
 
 "@docusaurus/types@^2.0.0-alpha.62":
   version "2.0.0-alpha.62"

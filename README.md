@@ -68,8 +68,9 @@ git config -l | grep user
 
 $ cd docusaurus
 
-$ sed -i '' 's/Template-Docusaurus/_NewProject_/g' docusaurus/docusaurus.config.js README.md pom.xml
+$ sed -i '' 's/Template-Docusaurus/_NewProject_/g' docusaurus/docusaurus.config.js README.md pom.xml docusaurus/src/pages/index.js
 
+$ yarn install 
 # 开启服务
 $ yarn start
 
